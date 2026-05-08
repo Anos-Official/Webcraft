@@ -4,7 +4,10 @@
   "description": "A remake of minecraft using only html",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "vite build",
+    "watch": "tsc --watch"
   },
   "repository": {
     "type": "git",
@@ -20,6 +23,7 @@
   "homepage": "https://github.com/Anos-Official/Minecraft-Remake#readme",
   "devDependencies": {
     "@babylonjs/core": "^9.6.2",
-    "typescript": "^6.0.3"
+    "typescript": "^6.0.3",
+    "vite": "^8.0.11"
   }
 }

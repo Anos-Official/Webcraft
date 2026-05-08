@@ -11,7 +11,7 @@ export interface Atlas {
 }
 
 const TILE_SIZE = 16;
-const ATLAS_COLS = 4;
+const ATLAS_COLS = 8;
 
 const TEXTURES: Record<string, string> = {
   grass_top:  'textures/grass/grass_block_top.png',
